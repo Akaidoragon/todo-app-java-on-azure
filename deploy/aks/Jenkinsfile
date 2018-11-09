@@ -5,7 +5,7 @@ node('master') {
     def aks = 'mykubernetes1'
 
     def cosmosResourceGroup = 'Training'
-    def cosmosDbName = 'cosmodbtodos'
+    def cosmosDbName = 'sontestcosmodb'
     def dbName = 'Todos'
 
     def dockerRegistry = 'jenkinsregistry20181107.azurecr.io'
